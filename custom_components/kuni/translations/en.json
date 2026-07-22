@@ -1,0 +1,33 @@
+{
+  "title": "KUNI Diffuser",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect KUNI Diffuser",
+        "description": "Enter the credentials and device details for your KUNI diffuser.",
+        "data": {
+          "client_id": "Client ID",
+          "refresh_token": "Refresh token",
+          "organization_id": "Organization ID",
+          "device_id": "Device ID"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Reconnect KUNI Diffuser",
+        "description": "KUNI authentication failed. Enter a new refresh token to reconnect the integration.",
+        "data": {
+          "refresh_token": "Refresh token"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to KUNI.",
+      "invalid_auth": "Authentication failed. Check the refresh token.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This KUNI device is already configured.",
+      "reauth_successful": "KUNI was reconnected successfully."
+    }
+  }
+}
