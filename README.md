@@ -1,5 +1,7 @@
 # KUNI Diffuser for Home Assistant
 
+![KUNI Diffuser](docs/images/README/home-assistant-overview.png)
+
 A custom Home Assistant integration for controlling a **KUNI Wi-Fi Scent Diffuser** through the KUNI cloud API.
 
 The integration provides native Home Assistant entities for power, capsule selection, intensity control, timed runs, and timer status.
